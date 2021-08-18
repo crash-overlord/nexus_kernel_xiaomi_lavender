@@ -6,7 +6,7 @@ jobs:
    steps:
       - run:
           command: |
-           git config --global user.name "cras-overlord"
+           git config --global user.name "crash-overlord"
            git config --global user.email "el_jose47@live.com"
            git config --global color.ui false
            git clone --depth=1 https://github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME} -b ${CIRCLE_BRANCH} .
